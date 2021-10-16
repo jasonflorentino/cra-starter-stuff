@@ -1,4 +1,4 @@
-# CRA Start
+# CRA Starter Stuff
 ### Some additions, overwrites, and boilerplate for my CRA apps
 
 ## Contents
