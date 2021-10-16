@@ -1,13 +1,11 @@
 {
-  "name": "tuning",
+  "name": "new-react-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-jss": "^10.8.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -21,7 +19,22 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "capitalized-comments": ["error", "always", { "ignoreConsecutiveComments": true }],
+      "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }],
+      "indent": ["error", 2],
+      "linebreak-style": ["error", "unix"],
+      "no-multi-assign": ["error"],
+      "quotes": ["error", "double"],
+      "semi": ["error", "always"]
+    }
   },
   "browserslist": {
     "production": [
